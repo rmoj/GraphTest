@@ -246,6 +246,7 @@ class ViewController: UIViewController {
             if success {
                 
                 print("Success: \(success)")
+                self.updateContactList()
                 
             } else {
                 
@@ -255,7 +256,7 @@ class ViewController: UIViewController {
             
         }
         
-        updateContactList()
+        
         
     }
     
